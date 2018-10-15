@@ -1,0 +1,24 @@
+Also should start using GitHub to track changes.  It’s probably a good idea to get familiar with this.
+Wonder if we can meet for 30 minutes or so to kind of layout initial workflow/screens and divide up – that way we can each begin designing a screen 
+interface in SceneBuilder or using javaFX? 
+
+2nd page is kind of an overview brainstorm of the various parts. We don’t have to implement all of them we can start small and add on as time permits.
+3rd page is a start on outlining classes
+We could aim for this to be an online app where the customer creates an account and can fill out a request for service online.
+
+1.	Customer opens service request In the desktop version this would be initiated by a phone call or an email – so an office worker would be completing the 
+information in the desktop application.
+a.	They either already have an account, or create one  Would need to have a screen to search for a name in the customer database and then display the info,
+ or add a new customer to the database (with all the info filled in)
+2.	Customer fills in service request, includes tasks and date they want it done  Desktop version the office worker would complete an initial service request form
+3.	Estimate is completed by office (hourly rate, amount per service)
+4.	Estimate is accepted by customer
+5.	Job is confirmed by office
+6.	Job is scheduled  includes:
+a.	Scheduling employees for specific tasks
+b.	Scheduling equipment (truck, mowers, etc.)
+c.	Ordering inventory if needed
+7.	Job takes place, employees complete job form with timesheets
+8.	Customer signs off on job
+9.	Customer is invoiced
+10.	Payment is received
