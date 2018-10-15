@@ -96,6 +96,9 @@
     </coordinates>
     <panel_attributes>Jobs Class
 - 
++ dateCreated
++ dateScheduled
++ dateCompleted
 </panel_attributes>
     <additional_attributes/>
   </element>
