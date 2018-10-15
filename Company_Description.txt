@@ -1,4 +1,6 @@
-﻿GitHub really only tracks changes in text files. Trying to see if we can force it to work with a word document. I think it'll work better using a text file, but limits us to diagrams. I need someone else to help me test these things.
+﻿GitHub really only tracks changes in text files. Trying to see if we can force it to work with a word document. 
+ I think it'll work better using a text file, but limits us to diagrams. 
+ I need someone else to help me test these things.
 
 Also should start using GitHub to track changes.  It’s probably a good idea to get familiar with this.
 Wonder if we can meet for 30 minutes or so to kind of layout initial workflow/screens and divide up – that way we can each begin designing a screen 
