@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="landscapecompany.ContactTableViewController">
+   <children>
+      <HBox layoutX="21.0" layoutY="20.0" prefHeight="29.0" prefWidth="191.0" AnchorPane.leftAnchor="21.0" AnchorPane.topAnchor="20.0">
+         <children>
+            <Label prefHeight="29.0" prefWidth="200.0" text="Contacts Table View" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <Button fx:id="ReturnToHome" layoutX="21.0" layoutY="61.0" mnemonicParsing="false" onAction="#changeScreenButtonPushed" text="Return to Home" AnchorPane.leftAnchor="21.0" AnchorPane.topAnchor="61.0" />
+      <TableView fx:id="tableView" layoutY="100.0" prefHeight="501.0" prefWidth="602.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="99.0">
+        <columns>
+          <TableColumn fx:id="firstNameColumn" prefWidth="145.0" text="First Name" />
+          <TableColumn fx:id="lastNameColumn" prefWidth="171.0" text="Last Name" />
+            <TableColumn fx:id="phoneColumn" prefWidth="138.0" text="Phone Number" />
+            <TableColumn fx:id="emailColumn" prefWidth="149.0" text="email" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
