@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
 <?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
@@ -15,5 +16,12 @@
          </font>
       </Label>
       <Button fx:id="btBacktoHome" layoutX="483.0" layoutY="351.0" mnemonicParsing="false" onAction="#changeScreenButtonPushed" text="Back to Home" />
+      <Label layoutX="88.0" layoutY="117.0" prefHeight="71.0" prefWidth="459.0" text="This is a new text label added by Donna to see how the merging from a branch works" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="106.0" layoutY="171.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../D2CProject/LandscapeCompany/src/landscapecompany/garden.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="338.0" layoutY="180.0" text="Also added the imae again" />
    </children>
 </AnchorPane>
